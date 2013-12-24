@@ -16,9 +16,11 @@ and do a
 
 	cd test
 
-and thereafter clone into that directory. Optionally, more sublevels may be chosen. 
+and thereafter clone into that directory. Optionally, more sublevels may be chosen. Even more preferrably is to use a git submodule, do that by issuing 
 
-After cloning, do
+	git submodule add path_to_repository path_in_local_repository 
+
+while located in the top level of the repository. After cloning, do
 
 	  cd RLtest
 	  ./setup.sh
