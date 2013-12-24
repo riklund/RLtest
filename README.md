@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/riklund/rltest.png)](https://travis-ci.org/riklund/rltest)
+[![Build Status](https://travis-ci.org/riklund/RLtest.png)](https://travis-ci.org/riklund/RLtest)
 
 #RLtest
 A default setup for quickly getting some basic tests to a project. 
