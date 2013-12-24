@@ -23,9 +23,9 @@ function PrintInitialInstructions()
 	echo "Please enter the directory in which to place the unit tests. Common choice is the parent directory."
 	echo "To this directory, files and a makefile will be copied."
 	read -p "Unit test directory:" UDIR
-	echo "Please enter path to the project makefile (if possible, use a makefile.in file)."
-	echo "Some comments aiding in linking testcases will be added to this makefile, it will then be opened for editing."
-	read -p "Makefile path:" MFDIR
+	echo "Please enter relative path to the project (where the main makefile is). "
+	echo ""
+	read -p "Main project path:" MFDIR
 	echo -en "\n"
 	THISDIR=$(pwd)
 }
